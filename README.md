@@ -115,7 +115,7 @@ This requires [OBS Studio](https://obsproject.com/) to be installed on your syst
 
 ![image](https://user-images.githubusercontent.com/2212651/83397513-609a0400-a41b-11ea-957b-2a3614e6a902.png)
 
-3. Deselect "Local Source", and paste the URL for the API into the "Input" field:
+3. Deselect "Local File", and paste the URL for the API into the "Input" field:
 
 ![image](https://user-images.githubusercontent.com/2212651/83404312-12d7c880-a428-11ea-9f9a-7fc4c84f77f8.png)
 
