@@ -8,7 +8,7 @@ This repository contains information about videoDAC's test-livestream API.
 
 - [Objective](#objective)
 - [About](#about)
-- [Hosted API](#hosted-api)
+- [Public API](#public-api)
 - [Local API](#local-api)
 - [Connect to API](#connect-to-api)
   - [Command Line Interface](#command-line-interface)
@@ -22,15 +22,21 @@ To help developers of video-enabled applications start developing client applica
 
 ## About
 
-videoDAC's test-livestream API is a one-way livestream of AV (audiovisual) content. The content is of a dynamic multi-coloured test card including an integer which increments every one second. It is presented as a [`.m3u8`](https://en.wikipedia.org/wiki/M3U) file extension, and contains a stream of [`hls`](https://en.wikipedia.org/wiki/HTTP_Live_Streaming) AV segments. The content is in `144p` format, which is 256 pixels by 144 pixels, refreshing at a rate of 30 frames per second.
+videoDAC's test-livestream API is a one-way livestream of AV (audiovisual) content.
+
+> _The content is of a dynamic multi-coloured test card including an integer which increments every one second._
+
+It is presented as a [`.m3u8`](https://en.wikipedia.org/wiki/M3U) file extension, and contains a stream of [`hls`](https://en.wikipedia.org/wiki/HTTP_Live_Streaming) AV segments.
+
+The content is in `144p` format, which is 256 pixels by 144 pixels, refreshing at a rate of 30 frames per second.
 
 This is a `gif` file showing a sample of the content:
 
 ![test](https://user-images.githubusercontent.com/2212651/83393535-95ef2380-a414-11ea-98b7-9c3babad46ac.gif)
 
-## Hosted API
+## Public API
 
-A hosted test-livestream API is provided as a free-to-use publicly-available hosted-service at the following URL:
+A publicly-available API is provided as a free-to-use hosted-service at the following URL:
 
 [http://52.29.226.43:8935/stream/hello_world.m3u8](http://52.29.226.43:8935/stream/hello_world.m3u8)
 
